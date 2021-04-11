@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    /* https://fonts.google.com */
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    text-align: center;
+    background-image: url('../img/banner-2.jpg');
+    background-size: cover;
+    padding: 30vh 100px;
+    height: 100vh;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header h1 {
+    font-size: 80px;
+}
+
+#section-1 {
+    font-size: 40px;
+    text-align: left;
+}
+
+#section-1 img {
+    width: 100%;
+    padding: 50px;
+}
+
+#section-2 {
+    background-color: #00ff95;
+    width: 100%;
+    text-align: center;
+}
+
+#section-2 h1 {
+    font-size: 80px;
+}
+
+#section-3 img {
+    width: 100%;
+    padding: 50px;
+}
+
+#section-3 {
+    font-size: 40px;
+    text-align: left;
+}
+
+#section-4 .column-1 {
+    background-color: rgb(86, 153, 240);
+    float: left;
+    text-align: center;
+    font-size: 45px;
+}
+
+#section-4 img {
+    width: 100%;
+}
+
+#section-5 {
+    background-color: black;
+    color: white;
+}
+
+.column-1 p {
+
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.gallery {
+    width: 25%;
+    float: left;
+    padding-bottom: 25px;
+}
+
+.gallery img {
+    width: 70%;
+}
+
+.relleno-lateral {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.relleno-columnas {
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    #header h1 {
+        font-size: 50px;
+    }
+
+    #header {
+        padding: 30vh 10px;
+    }
+
+    #section-1 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    #section-2 h1 {
+        font-size: 40px;
+    }
+
+    #section-3 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    #section-4 .gallery {
+        width: 50%;
+        padding: 0px;
+    }
+
+    #section-4 .column-1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .flex:not(#section-1) {
+        display: block;
+    }
+
+    .column-2 {
+        width: 100%;
+    }
+
+    .gallery {
+        width: 50%;
+    }
+
+    .relleno-lateral {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .column-4 {
+        width: 50%;
+    }
+
+    .relleno-columnas {
+        padding-right: 0px;
+    }
+
+    .flex {
+        display: block;
+    }
+}

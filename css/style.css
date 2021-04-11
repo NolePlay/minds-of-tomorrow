@@ -46,6 +46,7 @@ body {
     background-color: #00ff95;
     width: 100%;
     text-align: center;
+    padding-bottom: 25px;
 }
 
 #section-2 h1 {
@@ -98,7 +99,6 @@ body {
 .gallery {
     width: 25%;
     float: left;
-    padding-bottom: 25px;
 }
 
 .gallery img {
